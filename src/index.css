@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "Inter", system-ui, sans-serif;
+}
+
+html {
+  background-color: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.reveal {
+  transform: translateY(2rem);
+  opacity: 0;
+  transition: all 700ms ease-out;
+  will-change: transform, opacity;
+}
+
+.reveal.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
