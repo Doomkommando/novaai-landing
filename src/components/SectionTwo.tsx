@@ -4,18 +4,18 @@ import { Reveal } from "./Reveal";
 const CAPABILITIES = [
   {
     index: "01",
-    title: "Real-time vision",
-    body: "Reads context as it happens and surfaces what matters before you ask.",
+    title: "Vision en temps réel",
+    body: "Lit le contexte au fil de l'eau et fait remonter l'essentiel avant même que vous demandiez.",
   },
   {
     index: "02",
-    title: "Layered insight",
-    body: "Moves from rough outline to sharp output without losing the thread.",
+    title: "Analyse en couches",
+    body: "Passe d'une ébauche brute à un résultat précis sans jamais perdre le fil.",
   },
   {
     index: "03",
-    title: "Adaptive speed",
-    body: "Learns your cadence and tightens every pass as you work.",
+    title: "Vitesse adaptative",
+    body: "Apprend votre rythme et affine chaque passage au fil du travail.",
   },
 ];
 
@@ -27,15 +27,15 @@ export function SectionTwo() {
         <Reveal delay={120}>
           <div className="inline-block border-l-2 border-white bg-white/15 px-3 py-1.5 backdrop-blur-md">
             <span className="font-mono text-[11px] uppercase tracking-[0.15em]">
-              Insight On Demand
+              L'analyse à la demande
             </span>
           </div>
         </Reveal>
 
         <Reveal delay={220} className="max-w-sm sm:text-right">
           <p className="text-lg leading-relaxed text-white drop-shadow-md sm:text-xl">
-            Our AI doesn't just respond — it interprets, sharpens, and delivers the signal you
-            need.
+            Notre IA ne se contente pas de répondre — elle interprète, affine et livre le signal
+            dont vous avez besoin.
           </p>
         </Reveal>
       </div>
@@ -45,15 +45,16 @@ export function SectionTwo() {
         <div className="max-w-xl">
           <Reveal delay={180}>
             <h2 className="text-5xl font-normal leading-[1.05] tracking-tight text-white drop-shadow-lg sm:text-6xl lg:text-7xl">
-              Learn to see
+              Apprendre à voir
               <br />
-              brilliantly.
+              brillamment.
             </h2>
           </Reveal>
           <Reveal delay={320}>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-white/80 drop-shadow-md sm:text-base">
-              From the first sketch to the final render, Nova turns raw intent into decisions your
-              team can act on — quietly, precisely, at speed.
+              De la première esquisse au rendu final, Lucide transforme l'intention brute en
+              décisions que votre équipe peut exploiter — discrètement, précisément, à la vitesse
+              qu'il faut.
             </p>
           </Reveal>
           <Reveal delay={420}>
@@ -62,14 +63,14 @@ export function SectionTwo() {
                 href="#"
                 className="inline-flex items-center gap-1 rounded-full bg-white px-5 py-2.5 text-xs font-medium text-black transition-colors duration-300 hover:bg-white/85 sm:text-sm"
               >
-                Run the demo
+                Lancer la démo
                 <ChevronRight size={14} />
               </a>
               <a
                 href="#"
                 className="inline-flex items-center gap-1 rounded-full border border-white/25 bg-white/10 px-5 py-2.5 text-xs backdrop-blur-md transition-colors duration-300 hover:bg-white/20 sm:text-sm"
               >
-                Free consultation
+                Consultation gratuite
               </a>
             </div>
           </Reveal>

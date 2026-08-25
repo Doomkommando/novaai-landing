@@ -2,7 +2,7 @@ import { ChevronRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { useState } from "react";
 
-const SERVICES = ["/ AI AUTOMATION", "/ AI INTEGRATION", "/ AI AGENT DEVELOPMENT"];
+const SERVICES = ["/ AUTOMATISATION IA", "/ INTÉGRATION IA", "/ DÉVELOPPEMENT D'AGENTS IA"];
 
 const PORTRAIT_URL =
   "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260728_050334_5b076e26-0ce7-4898-b432-d764190e448f.png&w=1280&q=85";
@@ -26,8 +26,8 @@ export function SectionOne() {
 
         <Reveal delay={300} className="max-w-xs sm:text-right">
           <p className="text-lg leading-relaxed text-white drop-shadow-md sm:text-xl">
-            We design automation that brings clarity, precision, and efficiency to the way your
-            company operates.
+            Nous concevons des automatisations qui apportent clarté, précision et efficacité à la
+            façon dont votre entreprise fonctionne.
           </p>
         </Reveal>
       </div>
@@ -38,15 +38,15 @@ export function SectionOne() {
           <Reveal delay={150}>
             <div className="mb-5 inline-block border-l-2 border-white bg-white/15 px-3 py-1.5 backdrop-blur-md">
               <span className="font-mono text-[11px] uppercase tracking-[0.15em]">
-                We Automate 100+ Businesses
+                Plus de 100 entreprises automatisées
               </span>
             </div>
           </Reveal>
           <Reveal delay={280}>
             <h1 className="text-5xl font-normal leading-[1.05] tracking-tight text-white drop-shadow-lg sm:text-6xl lg:text-7xl">
-              Clear. Precise.
+              Clair. Précis.
               <br />
-              Automated.
+              Automatisé.
             </h1>
           </Reveal>
         </div>
@@ -55,7 +55,7 @@ export function SectionOne() {
           <div className="flex items-center gap-4 rounded-xl bg-white/15 p-3 backdrop-blur-md">
             <img
               src={PORTRAIT_URL}
-              alt="Mitha, co-founder of NovaAI"
+              alt="Camille, cofondatrice de Lucide"
               width={80}
               height={96}
               loading="eager"
@@ -67,15 +67,15 @@ export function SectionOne() {
               }`}
             />
             <div className="flex flex-col gap-1.5 pr-2">
-              <span className="text-sm font-medium text-white">Talk with Mitha</span>
+              <span className="text-sm font-medium text-white">Parler avec Camille</span>
               <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-white/60">
-                Co-founder of NovaAI
+                Cofondatrice de Lucide
               </span>
               <a
                 href="#"
                 className="mt-1.5 inline-flex w-fit items-center gap-1 rounded-full bg-white px-4 py-2 text-xs font-medium text-black transition-colors duration-300 hover:bg-white/85"
               >
-                Book 15-mins call
+                Réserver un appel de 15 min
                 <ChevronRight size={14} />
               </a>
             </div>
