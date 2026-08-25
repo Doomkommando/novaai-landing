@@ -31,3 +31,38 @@ body {
   transform: translateY(0);
   opacity: 1;
 }
+
+.nav-shell {
+  background-color: transparent;
+}
+
+.nav-shell.nav-scrolled {
+  background-color: rgba(10, 10, 10, 0.55);
+  backdrop-filter: blur(16px);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.nav-shell.nav-scrolled .nav-inner {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@keyframes idle-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.idle-float {
+  animation: idle-float 5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .idle-float {
+    animation: none;
+  }
+}
